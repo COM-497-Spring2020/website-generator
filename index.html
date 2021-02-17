@@ -25,14 +25,14 @@ Created by Pablo Velazquez, Kosta Mitrovic and Bjron Rosman.
   <!-- Nav bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Website generator</a>
+      <a class="navbar-brand" href="/index.html">Website generator</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="/index.html">Home
+            <a class="nav-link" href="#hero-section">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -56,7 +56,7 @@ Created by Pablo Velazquez, Kosta Mitrovic and Bjron Rosman.
     <!-- Hero -->
     <div class="row align-items-center my-5" id="hero-section">
       <div class="col-lg-7">
-        <img class="img-fluid rounded mb-4 mb-lg-0" src="images/image1.svg" alt="">
+        <img class="img-fluid rounded mb-4 mb-lg-0" src="images/image6.jpg" alt="">
       </div>
       
       <div class="col-lg-5">
@@ -105,7 +105,27 @@ Created by Pablo Velazquez, Kosta Mitrovic and Bjron Rosman.
             <img class="featurette-image img-fluid mx-auto rounded-2" src="/images/image5.png" alt="...">
           </div>
         </div>
-    
+
+
+        <!-- Contact section -->
+        <div class="container" id="contact-section">
+          <form id="contact" action="" method="post">
+            <h3>Quick Contact</h3>
+            <h4>Contact us today and one of our team members will be with you shortly!</h4>
+            <fieldset>
+              <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+              <textarea placeholder="Type here" tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+          </form>
+        </div>
 
   </div>
   
