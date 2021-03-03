@@ -1,0 +1,23 @@
+header {
+    padding: 300px 0 100px;
+}
+  
+section {
+    padding: 150px 0;
+}
+
+#hero-template1 {
+    background-image: url(/templates/template1/image-template1.jpg);
+    background-position: 55%;
+    background-size: auto;
+}
+
+.card {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#contact-btn {
+    
+}
