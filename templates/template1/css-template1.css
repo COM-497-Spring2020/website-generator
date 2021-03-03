@@ -10,6 +10,7 @@ section {
     background-image: url(/templates/template1/image-template1.jpg);
     background-position: 55%;
     background-size: auto;
+    padding-top: 500px;
 }
 
 .card {
