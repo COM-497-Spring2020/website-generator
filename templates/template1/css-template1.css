@@ -60,4 +60,9 @@ main {
   border-bottom-color: #fff;
 }
 
+#nav-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /* Contact form */
