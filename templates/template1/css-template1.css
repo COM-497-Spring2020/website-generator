@@ -66,3 +66,18 @@ main {
 }
 
 /* Contact form */
+
+.card {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    margin-top: 5px;
+  }
+  #about #services #contact{
+    margin-top: -100px;
+    margin-bottom: -100px;
+  }
+}
