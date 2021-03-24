@@ -35,10 +35,24 @@ main p {
   font-family: 'Montserrat', sans-serif;
 }
 
-.box-titles {
+.box-titles{
+  font-family: 'Alice', serif;
+}
+
+.card-title{
   font-family: 'Alice', serif;
 }
 
 footer p {
   font-family: 'Montserrat', sans-serif;
+}
+
+#services {
+  padding: 50px 50px;
+}
+
+.card {
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: #f8f9fa;
 }
