@@ -1,0 +1,20 @@
+{
+  "name": "react-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MongoConnection.js",
+  "scripts": {
+    "start": "node MongoConnection.js",
+    "server": "nodemon MongeConnection.js",
+    "client": "npm run start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.11.19",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
