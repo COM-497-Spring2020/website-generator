@@ -6,20 +6,15 @@ body {
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
 }
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
 }
@@ -31,11 +26,6 @@ body {
   height: 32rem;
 }
 
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -48,21 +38,15 @@ body {
   margin-right: .75rem;
   margin-left: .75rem;
 }
-/* rtl:end:ignore */
 
-
-/* Featurettes
-------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0; 
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  /* rtl:remove */
   letter-spacing: -.05rem;
 }
 
