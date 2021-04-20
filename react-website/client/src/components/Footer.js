@@ -8,15 +8,15 @@ function Footer() {
         <div className='footer-container'>
             <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
-                   Add text for the footer here! 
+                   Get in contact with us! 
                 </p>
                 <p className='footer-subscription-text'>
-                    Add more text here for the footer!
+                    If you are interested in our services or if you want more information about
+                    what we have to offer to you, feel free to contact us by clicking on the link 
+                    below and leave us your questions to answer.
                 </p>
                 <div className="input-areas">
-                    <form>
                         <Button buttonStyle='btn--outline'><Link className="link-button" to='/contact'>Contact Us</Link></Button>
-                    </form>
                 </div>
             </section>
             <div className='footer-links'>

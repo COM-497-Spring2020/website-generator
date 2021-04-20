@@ -15,7 +15,7 @@ function TemplateAlbum() {
                             src='images/TestTemplateImg.jpg'
                             text="Enjoy our italian style restaurant website"
                             label='Italian'
-                            path='/templates'
+                            path='/Templates/template1/template1.html'
                         />
                         <CardItem 
                             src='images/TestTemplateImg.jpg'

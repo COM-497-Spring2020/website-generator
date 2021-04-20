@@ -25,6 +25,8 @@ class ContactForm extends Component {
     async handleSubmit(e) {
         e.preventDefault()
 
+        alert('Email successfully sent!')
+
         const { name, email, message } = this.state
 
         const form = await axios.post('/api/form', {

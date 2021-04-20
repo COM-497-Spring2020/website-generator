@@ -13,13 +13,13 @@ function Cards() {
                             src='images/TestTemplateImg.jpg'
                             text="Enjoy our italian style restaurant website"
                             label='Italian'
-                            path='/templates'
+                            path='../Templates/template1/template1.html'
                         />
                         <CardItem 
                             src='images/TestTemplateImg.jpg'
                             text="Enjoy our italian style restaurant website"
                             label='Italian'
-                            path='/templates'
+                            path='./Templates/template1/template2.html'
                         />
                     </ul>
                     <ul className="cards__items">
@@ -27,7 +27,7 @@ function Cards() {
                             src='images/TestTemplateImg.jpg'
                             text="Enjoy our italian style restaurant website"
                             label='Italian'
-                            path='/templates'
+                            path='./Templates/template1/template2.html'
                         />
                     </ul>
                 </div>
