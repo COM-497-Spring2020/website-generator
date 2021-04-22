@@ -4,10 +4,7 @@
   scroll-margin-top: 10rem;
 }
 
-/* Footer section */
-footer {
-  margin-top: 60px;
-}
+
 
 /* Features section */
 .features-section {
@@ -129,3 +126,14 @@ fieldset {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+
+/* Contact section */
+
+footer {
+  position: fixed;
+  height: 110px;
+  bottom: 0;
+  width: 100%;
+}
+
