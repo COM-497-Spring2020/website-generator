@@ -35,7 +35,7 @@ main p {
   font-family: 'Montserrat', sans-serif;
 }
 
-.box-titles{
+.box-titles {
   font-family: 'Alice', serif;
 }
 
@@ -57,4 +57,13 @@ footer p {
   border-radius: 0px;
   margin-top: 20px;
   background-color: #f8f9fa;
+}
+
+#contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h2, label, input, textarea{
+  font-family: 'Alice', serif;
 }
