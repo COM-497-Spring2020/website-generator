@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
-import InputForm from '../InputForm';
 import App from '../send/restaurant/src/App'
 
 function Customize() {

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from './Button';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 
@@ -16,7 +15,7 @@ function Footer() {
                     below and leave us your questions to answer.
                 </p>
                 <div className="input-areas">
-                        <Button buttonStyle='btn--outline'><Link className="link-button" to='/contact'>Contact Us</Link></Button>
+                        <Link className="link-button" to='/contact'><button className="buttonStyle">Contact Us</button></Link>
                 </div>
             </section>
             <div className='footer-links'>
@@ -32,7 +31,7 @@ function Footer() {
                     <div className='footer-links-items'>
                         <h2>Contact Us</h2>
                         <Link to='/contact'>Contact</Link>
-                        <Link to='/'>Support</Link>
+                        <Link to='/contact'>Support</Link>
                     </div>
                 </div>
             </div>
